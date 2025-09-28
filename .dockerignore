@@ -11,6 +11,10 @@ __pycache__/
 
 # Virtual environments
 venv/
+27-Sep-ecomm-venv/
+*-venv/
+env/
+.env
 
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints
@@ -35,3 +39,27 @@ build/
 dist/
 *.egg-info/
 .eggs/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Development files
+README.md
+*.md
+test/
+tests/
+
+# Data files (if not needed in container)
+data/
+static/
+templates/
+
+# Scripts (if not needed in container)
+install_requirements_batch.py
+get_lib_versions.py
+scrapper_ui.py
