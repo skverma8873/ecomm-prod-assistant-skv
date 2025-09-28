@@ -103,7 +103,7 @@ Resources:
         - IpProtocol: -1
           CidrIp: 0.0.0.0/0
 
-  ### --- ECR Repository ---
+  ### --- ECR Repository ------
 
   ProductAssistantECR:
     Type: AWS::ECR::Repository
