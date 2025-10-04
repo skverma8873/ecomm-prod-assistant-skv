@@ -3,7 +3,7 @@ name: Deploy App to EKS
 on:
   push:
     branches:
-      - main   # Runs automatically on push to main branch
+      - main   # Runs automatically on push to main branch ..
   workflow_dispatch: # Allow manual trigger
 
 jobs:
